@@ -293,6 +293,11 @@ section {
   line-height: 0;
   transition: 0.5s;
 }
+
+.medsos {
+  display: none;
+}
+
 .mobile-nav-toggle.bi-x {
   color: #fff;
 }
@@ -300,6 +305,14 @@ section {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+  }
+  
+  .medsos {
+    display:block ;
+  }
+
+  .medsos-style i{
+    font-size: 30px !important;
   }
 
   .navbar ul {
