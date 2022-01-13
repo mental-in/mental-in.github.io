@@ -59,11 +59,45 @@ section {
   font-weight: 700;
   color: #012970;
 }
+.section-testi-m {
+  padding-top: 30px;
+  background-color: rgb(117, 172, 255);
+}
 @media (max-width: 768px) {
   .section-header p {
     font-size: 28px;
     line-height: 32px;
   }
+}
+
+/*--------------------------------------------------------------
+# Carousel
+--------------------------------------------------------------*/
+.carousel-item {
+  padding: 60px;
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+.carousel-item p{
+  color: white;
+}
+.isi h6{
+  color: white;
+  font-weight: bold;
+}
+.isi h5 {
+  color: white;
+  font-weight: bolder;
+}
+.isi {
+  padding-left: 50px !important;
+}
+.carousel-item img{
+  margin-bottom: 20px;
 }
 
 /*--------------------------------------------------------------
